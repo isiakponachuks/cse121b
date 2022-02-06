@@ -1,8 +1,4 @@
 /* HTML Selectors */
-article {
-    margin: 10px;
-}
-
 body {
     font-family: 'Kalam', cursive;
 }
@@ -24,18 +20,10 @@ header {
     text-align: center;
 }
 
-img {
-    width: 80%;
-}
-
 label {
     display: inline-block;
     min-width: 120px;
     text-align: right;
-}
-
-main {
-    text-align: center;
 }
 
 nav {
@@ -73,13 +61,6 @@ nav ul li a:hover {
     color: black;
 }
 
-section {
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
-}
-
-
 /* Class Selectors */
 .active {
     background-color: white;
@@ -100,11 +81,6 @@ section {
     vertical-align: top;
 }
 
-#temples {
-    display: grid;
-    grid-template-columns: 1fr;
-}
-
 /* Media Queries */
 @media only screen and (min-width: 32.5em) {
     nav ul {
@@ -118,15 +94,5 @@ section {
     nav ul li {
         display: inline;
         margin: 0 10px;
-    }
-
-    #temples {
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
-@media only screen and (min-width: 64em) {
-    #temples {
-        grid-template-columns: 1fr 1fr 1fr;
     }
 }
